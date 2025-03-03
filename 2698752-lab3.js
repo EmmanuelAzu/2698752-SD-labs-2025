@@ -19,7 +19,7 @@ function getMusicTitlesByYear(music_tracks){
    }
 
    for(const year in music_by_year){
-        music_by_year[year].sort();
+        music_by_year[year].sort(); //sorts titles alphabetically
    }
 
    return music_by_year;
